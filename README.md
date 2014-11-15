@@ -9,7 +9,7 @@ Dark version of Mintply, a Plymouth theme including a reimagined Linux Mint logo
 
 ## Installation
 
-Firt copy the `mintply-dark` directory over `/lib/plymouth/`, wou will need root privileges. Then install it on the system by the `update-alternatives` command:
+Firt copy the `mintply-dark` directory over `/lib/plymouth/themes/`, wou will need root privileges. Then install it on the system by the `update-alternatives` command:
 ```shell
 sudo update-alternatives --install /lib/plymouth/themes/default.plymouth default.plymouth /lib/plymouth/themes/mintply-dark/mintply-dark.plymouth 100
 ```
