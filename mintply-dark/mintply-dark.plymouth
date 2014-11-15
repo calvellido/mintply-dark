@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=MintPly-Dark
+Description=A theme that features a dark background with a Linux Mint logo.
+ModuleName=script
+
+[script]
+ImageDir=/lib/plymouth/themes/mintply-dark
+ScriptFile=/lib/plymouth/themes/mintply-dark/mintply-dark.script
