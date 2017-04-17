@@ -13,7 +13,7 @@ Dark version of Mintply, a Plymouth theme including a reimagined Linux Mint logo
 git clone https://github.com/calvellido/mintply-dark.git
 ```
 
-First copy the `mintply-dark` directory over `/lib/plymouth/themes/` or `/usr/share/plymouth/themes/` depending on where your Plymouth installation sits, wou will need root privileges for this. 
+First copy the `mintply-dark` directory over `/lib/plymouth/themes/` or `/usr/share/plymouth/themes/` depending on where your Plymouth installation sits, wou will need root privileges for this. Check that the directory set on ![mintply-dark/mintply-dark.plymouth](https://github.com/calvellido/mintply-dark/blob/master/mintply-dark/mintply-dark.plymouth "mintply-dark/mintply-dark.plymouth") file is correct.
 
 ```shell
 cp -r mintply-dark/mintply-dark /usr/share/plymouth/themes/
